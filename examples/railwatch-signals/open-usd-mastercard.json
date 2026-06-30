@@ -1,0 +1,19 @@
+{
+  "id": "infra-alliance-openusd-mastercard-0001",
+  "date_observed": "2026-06-30",
+  "source_url": "https://joinopenstandard.com/blog/introducing-open-usd",
+  "source_type": "official_blog",
+  "entity": "Mastercard",
+  "related_entities": [
+    "Open Standard",
+    "Open USD"
+  ],
+  "category": "payment_network",
+  "summary": "Mastercard publicly signaled support for Open Standard and Open USD, making this a payment-network convergence signal for programmable money infrastructure.",
+  "convergence_score": 4,
+  "agent_commerce_relevance": 4,
+  "confidence": "medium",
+  "recommended_public_action": "watch",
+  "not_financial_advice": true,
+  "public_boundary_note": "Public OSINT example only. No private Agentropolis implementation details included."
+}

@@ -73,6 +73,22 @@ HERMES CITY tracks these updates because they map directly to agent-city infrast
 
 Public reference: [`docs/HERMES_LOGBOOK_MAIN_SINCE_V0_17_0.md`](docs/HERMES_LOGBOOK_MAIN_SINCE_V0_17_0.md)
 
+### HERMES AGENT V0.18.0 JUDGEMENT RELEASE SIGNAL
+
+Public release signal for Hermes Agent v0.18.0, the Judgement Release.
+
+HERMES CITY tracks this release because it advances Hermes from agent execution toward richer orchestration infrastructure:
+
+- Mixture of Agents as a first-class virtual model.
+- `/learn` for teaching agents from open-ended sources.
+- Journey for visualizing how an agent learned.
+- Gemini Vertex as a supported provider.
+- Fable 5, Sonnet 5, and Fugu as expanded model inventory.
+- Desktop Projects for focused build surfaces.
+- P0 and P1 issue clearance as an operational maturity signal.
+
+Public reference: [`docs/HERMES_AGENT_V0_18_0_JUDGEMENT_RELEASE_SIGNAL.md`](docs/HERMES_AGENT_V0_18_0_JUDGEMENT_RELEASE_SIGNAL.md)
+
 ### HERMES FALLBACK PROVIDER SIGNAL
 
 Public reliability signal for Hermes fallback provider configuration.

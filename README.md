@@ -39,6 +39,14 @@ HERMES CITY tracks Hermes Vault as public agent-infrastructure signal because cr
 
 Public reference: [`docs/HERMES_VAULT_LEASE_ASSURANCE.md`](docs/HERMES_VAULT_LEASE_ASSURANCE.md)
 
+### MODEL COUNCIL SIGNAL
+
+Public model-provider capability signal for safe agent-native routing.
+
+HERMES CITY tracks the model-council pattern because agent systems need specialized inference lanes for planning, research, building, fast worker tasks, council review, and fallback execution.
+
+Public reference: [`docs/PUBLIC_MODEL_COUNCIL_SIGNAL.md`](docs/PUBLIC_MODEL_COUNCIL_SIGNAL.md)
+
 ## Signal Scoring
 
 | Score | Label | Meaning | Action |

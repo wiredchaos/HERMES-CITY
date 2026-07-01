@@ -13,6 +13,7 @@ This repository is intentionally limited to public documentation, open schemas, 
 ## Public Modules
 
 ### RAILWATCH
+
 Trust & Treasury OSINT layer for tracking the advancement of programmable money rails.
 
 RAILWATCH monitors:
@@ -22,6 +23,21 @@ RAILWATCH monitors:
 - Credit union innovation, CUNA policy movement, CUSO models, and member-owned finance rails
 - Retirement and pension exposure including 401(k), IRA, public pensions, BlackRock, Fidelity, Vanguard, and tokenized treasury adoption
 - Agent commerce infrastructure including MetaMask Agent Wallet, x402, Coinbase Developer Platform, Stripe stablecoin rails, World.xyz, DFlow, and wallet-native payments
+
+### HERMES VAULT SIGNAL
+
+Public credential-governance watch layer for local-first agent security infrastructure.
+
+Hermes Vault v0.17.0 introduced Lease Assurance: a time-bound credential access model that makes leases observable, maintainable, and auditable without adding new dependencies.
+
+HERMES CITY tracks Hermes Vault as public agent-infrastructure signal because credential leases are a core primitive for safe agent-native commerce:
+
+- Agents should not hold permanent authority by default.
+- Credential access should expire, renew from current time, and revoke cleanly.
+- Operator surfaces should expose lease health, active counts, policy gaps, backup drift, and failed-close revoke behavior.
+- MCP denial responses should remain structured and machine-readable.
+
+Public reference: [`docs/HERMES_VAULT_LEASE_ASSURANCE.md`](docs/HERMES_VAULT_LEASE_ASSURANCE.md)
 
 ## Signal Scoring
 

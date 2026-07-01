@@ -53,6 +53,16 @@ HERMES CITY tracks these updates because they map directly to agent-city infrast
 
 Public reference: [`docs/HERMES_LOGBOOK_MAIN_SINCE_V0_17_0.md`](docs/HERMES_LOGBOOK_MAIN_SINCE_V0_17_0.md)
 
+### HERMES FALLBACK PROVIDER SIGNAL
+
+Public reliability signal for Hermes fallback provider configuration.
+
+HERMES CITY tracks fallback chains because agent operations need real continuity across provider failures, rate limits, authentication interruptions, and cloud outages.
+
+Every fallback entry should include both `provider` and `model`. Provider-only entries create false redundancy because they look like fallback hops but do not operate as complete model routes.
+
+Public reference: [`docs/HERMES_WINGTIPS_10_FALLBACK_PROVIDERS.md`](docs/HERMES_WINGTIPS_10_FALLBACK_PROVIDERS.md)
+
 ### MODEL COUNCIL SIGNAL
 
 Public model-provider capability signal for safe agent-native routing.

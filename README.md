@@ -34,6 +34,16 @@ The governor does not generate strategy. It enforces survival through caps, thro
 
 Public reference: [`docs/EXECUTION_GOVERNOR_PUBLIC_SIGNAL.md`](docs/EXECUTION_GOVERNOR_PUBLIC_SIGNAL.md)
 
+### BASEDBOT EXECUTION SIGNAL
+
+Public execution-terminal signal for governed agent-native finance.
+
+HERMES CITY tracks BasedBot as a candidate execution surface because agent systems need more than recommendations. They need safe paths for read-only monitoring, simulation, approval-based actions, limited execution, and audit receipts.
+
+BasedBot is not treated as the brain. It is treated as a potential tool lane that must sit behind orchestration, policy review, wallet permissioning, spend caps, allowlists, cooldowns, kill switches, and manual reset controls.
+
+Public reference: [`docs/BASEDBOT_PUBLIC_EXECUTION_SIGNAL.md`](docs/BASEDBOT_PUBLIC_EXECUTION_SIGNAL.md)
+
 ### HERMES VAULT SIGNAL
 
 Public credential-governance watch layer for local-first agent security infrastructure.

@@ -24,6 +24,16 @@ RAILWATCH monitors:
 - Retirement and pension exposure including 401(k), IRA, public pensions, BlackRock, Fidelity, Vanguard, and tokenized treasury adoption
 - Agent commerce infrastructure including MetaMask Agent Wallet, x402, Coinbase Developer Platform, Stripe stablecoin rails, World.xyz, DFlow, and wallet-native payments
 
+### EXECUTION GOVERNOR SIGNAL
+
+Public safety signal for agent-native execution control.
+
+HERMES CITY tracks Execution Governor as a prerequisite control layer for any agent system that may interact with programmable liquidity, market venues, wallet lanes, or capital-sensitive workflows.
+
+The governor does not generate strategy. It enforces survival through caps, throttles, pauses, kill states, manual reset requirements, and auditable decision records.
+
+Public reference: [`docs/EXECUTION_GOVERNOR_PUBLIC_SIGNAL.md`](docs/EXECUTION_GOVERNOR_PUBLIC_SIGNAL.md)
+
 ### HERMES VAULT SIGNAL
 
 Public credential-governance watch layer for local-first agent security infrastructure.

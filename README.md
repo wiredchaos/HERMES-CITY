@@ -39,6 +39,20 @@ HERMES CITY tracks Hermes Vault as public agent-infrastructure signal because cr
 
 Public reference: [`docs/HERMES_VAULT_LEASE_ASSURANCE.md`](docs/HERMES_VAULT_LEASE_ASSURANCE.md)
 
+### HERMES AGENT LOGBOOK SIGNAL
+
+Public operating-system signal for Hermes Agent updates shipped to `main` after v0.17.0.
+
+HERMES CITY tracks these updates because they map directly to agent-city infrastructure primitives:
+
+- Background fan-out for parallel subagent delegation.
+- Durable session identity through compaction.
+- Visible Mixture-of-Agents reference outputs before aggregation.
+- Desktop context breakdown across system prompt, tools, skills, memory, and active work.
+- Persistent terminal tabs that restore history on relaunch.
+
+Public reference: [`docs/HERMES_LOGBOOK_MAIN_SINCE_V0_17_0.md`](docs/HERMES_LOGBOOK_MAIN_SINCE_V0_17_0.md)
+
 ### MODEL COUNCIL SIGNAL
 
 Public model-provider capability signal for safe agent-native routing.

@@ -14,6 +14,8 @@
 - Hermes HQ
 - Research District
 - Builder District
+- Construction District
+- Manufacturing District
 - Wallet District
 - Commerce District
 - Signal Tower
@@ -34,7 +36,16 @@
 - Interface patterns
 - Demo-data-only pull requests
 
-## Phase 5: Launch Package
+## Phase 5: Manufacturing District Preview
+
+- Public-safe Manufacturing District card
+- BougieBackdrop Agent overview
+- Vinted listing workflow mockup
+- Buyer-trust guardrails
+- Background preset gallery using demo data only
+- No real customer/private store data in public repo
+
+## Phase 6: Launch Package
 
 - GitHub Pages live site
 - Hackathon submission README

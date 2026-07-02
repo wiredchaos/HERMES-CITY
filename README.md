@@ -107,6 +107,14 @@ HERMES CITY tracks the model-council pattern because agent systems need speciali
 
 Public reference: [`docs/PUBLIC_MODEL_COUNCIL_SIGNAL.md`](docs/PUBLIC_MODEL_COUNCIL_SIGNAL.md)
 
+### CREATOR REFERENCE LOCK SIGNAL
+
+Public production-continuity signal for AGENTROPOLIS-CREATOR character sheets, prop sheets, environment sheets, shot prompt packs, metadata sidecars, and verification gates.
+
+HERMES CITY tracks this as a public infrastructure pattern because generated city media needs stable identity, staging, provenance, rights review, and receipts before downstream adoption.
+
+Public reference: [`docs/CREATOR_REFERENCE_LOCK_PUBLIC_SIGNAL.md`](docs/CREATOR_REFERENCE_LOCK_PUBLIC_SIGNAL.md)
+
 ## Signal Scoring
 
 | Score | Label | Meaning | Action |

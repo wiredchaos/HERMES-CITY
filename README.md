@@ -155,6 +155,14 @@ HERMES CITY tracks this because terminal agents should be controlled execution l
 
 Public reference: [`docs/PROVIDER_AGNOSTIC_TERMINAL_SIGNAL.md`](docs/PROVIDER_AGNOSTIC_TERMINAL_SIGNAL.md)
 
+### UNBROKER PRIVACY OPS SIGNAL
+
+Public privacy-operations signal for autonomous data-broker removal workflows.
+
+HERMES CITY tracks UNBROKER because privacy enforcement is a real civic agent lane: consent-gated exposure search, broker fan-out, jurisdiction-aware deletion requests, verification, audit ledger, and recurring re-scans when brokers relist data.
+
+Public reference: [`docs/UNBROKER_PRIVACY_OPS_SIGNAL.md`](docs/UNBROKER_PRIVACY_OPS_SIGNAL.md)
+
 ## Signal Scoring
 
 | Score | Label | Meaning | Action |

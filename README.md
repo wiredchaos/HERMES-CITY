@@ -131,6 +131,14 @@ HERMES CITY does not bind the ecosystem to Claude, Spawn, or any single provider
 
 Public reference: [`docs/NO_CLAUDE_PUBLIC_BOOTSTRAP_SIGNAL.md`](docs/NO_CLAUDE_PUBLIC_BOOTSTRAP_SIGNAL.md)
 
+### GITLAWB ZERO PUBLIC BUILDER SIGNAL
+
+Public local coding agent signal for sovereign builder workflows.
+
+HERMES CITY tracks GitLawb Zero because agent systems need controlled local coding lanes that respect model choice, machine sovereignty, operator rules, validation, and receipts.
+
+Public reference: [`docs/GITLAWB_ZERO_PUBLIC_BUILDER_SIGNAL.md`](docs/GITLAWB_ZERO_PUBLIC_BUILDER_SIGNAL.md)
+
 ## Signal Scoring
 
 | Score | Label | Meaning | Action |

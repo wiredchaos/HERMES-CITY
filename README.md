@@ -115,6 +115,14 @@ HERMES CITY tracks this as a public infrastructure pattern because generated cit
 
 Public reference: [`docs/CREATOR_REFERENCE_LOCK_PUBLIC_SIGNAL.md`](docs/CREATOR_REFERENCE_LOCK_PUBLIC_SIGNAL.md)
 
+### HERMES SKILLS PUBLIC SIGNAL
+
+Public skill-architecture signal for GPT-compatible skills, project skills, agent identity files, workflow packs, and safe reusable operating procedures.
+
+HERMES CITY tracks this because skills turn repeated agent behavior into reviewable contracts with triggers, boundaries, dependencies, and predictable outputs.
+
+Public reference: [`docs/HERMES_SKILLS_PUBLIC_SIGNAL.md`](docs/HERMES_SKILLS_PUBLIC_SIGNAL.md)
+
 ## Signal Scoring
 
 | Score | Label | Meaning | Action |

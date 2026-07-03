@@ -139,6 +139,14 @@ HERMES CITY tracks GitLawb Zero because agent systems need controlled local codi
 
 Public reference: [`docs/GITLAWB_ZERO_PUBLIC_BUILDER_SIGNAL.md`](docs/GITLAWB_ZERO_PUBLIC_BUILDER_SIGNAL.md)
 
+### HERMES /STEER COMMAND SIGNAL
+
+Public live workflow-control signal for steering active agent work without stopping the current task.
+
+`/steer` is tracked because active agents need more than stop or wait controls. They need controlled mid-run course correction that preserves context while still respecting policy gates.
+
+Public reference: [`docs/HERMES_STEER_COMMAND_SIGNAL.md`](docs/HERMES_STEER_COMMAND_SIGNAL.md)
+
 ## Signal Scoring
 
 | Score | Label | Meaning | Action |

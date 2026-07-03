@@ -163,6 +163,14 @@ HERMES CITY tracks UNBROKER because privacy enforcement is a real civic agent la
 
 Public reference: [`docs/UNBROKER_PRIVACY_OPS_SIGNAL.md`](docs/UNBROKER_PRIVACY_OPS_SIGNAL.md)
 
+### HERMES MODEL AND BACKEND ECOSYSTEM SIGNAL
+
+Public signal for model rankings, backend providers, search/extraction lanes, and provider-agnostic skill execution.
+
+HERMES CITY tracks this because models rotate, free tiers change, providers throttle, and backend APIs differ. The durable infrastructure is HERMES Dispatch, Model Council routing, capability abstraction, validation, and receipts.
+
+Public reference: [`docs/HERMES_MODEL_BACKEND_ECOSYSTEM_SIGNAL.md`](docs/HERMES_MODEL_BACKEND_ECOSYSTEM_SIGNAL.md)
+
 ## Signal Scoring
 
 | Score | Label | Meaning | Action |

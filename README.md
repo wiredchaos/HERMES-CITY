@@ -123,6 +123,14 @@ HERMES CITY tracks this because skills turn repeated agent behavior into reviewa
 
 Public reference: [`docs/HERMES_SKILLS_PUBLIC_SIGNAL.md`](docs/HERMES_SKILLS_PUBLIC_SIGNAL.md)
 
+### NO-CLAUDE PUBLIC BOOTSTRAP SIGNAL
+
+Public provider-agnostic bootstrap signal for Windows and WSL development.
+
+HERMES CITY does not bind the ecosystem to Claude, Spawn, or any single provider wrapper. HERMES governs the route while model lanes remain policy-bound and replaceable.
+
+Public reference: [`docs/NO_CLAUDE_PUBLIC_BOOTSTRAP_SIGNAL.md`](docs/NO_CLAUDE_PUBLIC_BOOTSTRAP_SIGNAL.md)
+
 ## Signal Scoring
 
 | Score | Label | Meaning | Action |
@@ -136,6 +144,7 @@ Public reference: [`docs/HERMES_SKILLS_PUBLIC_SIGNAL.md`](docs/HERMES_SKILLS_PUB
 ## Public / Private Boundary
 
 HERMES CITY is public.
+
 Agentropolis is private.
 
 Public materials may describe concepts, schemas, operating principles, and non-sensitive research workflows.

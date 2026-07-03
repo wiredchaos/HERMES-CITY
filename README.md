@@ -147,6 +147,14 @@ Public live workflow-control signal for steering active agent work without stopp
 
 Public reference: [`docs/HERMES_STEER_COMMAND_SIGNAL.md`](docs/HERMES_STEER_COMMAND_SIGNAL.md)
 
+### PROVIDER-AGNOSTIC TERMINAL SIGNAL
+
+Public terminal-execution signal for Claude-free and provider-agnostic coding workflows.
+
+HERMES CITY tracks this because terminal agents should be controlled execution lanes behind HERMES Dispatch, Model Council routing, MCP Registry, Policy Gate, validation, and receipts.
+
+Public reference: [`docs/PROVIDER_AGNOSTIC_TERMINAL_SIGNAL.md`](docs/PROVIDER_AGNOSTIC_TERMINAL_SIGNAL.md)
+
 ## Signal Scoring
 
 | Score | Label | Meaning | Action |

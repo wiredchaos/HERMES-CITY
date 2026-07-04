@@ -49,6 +49,21 @@ HERMES-CITY
 
 Morph should support the build system, not replace Hermes identity, profiles, memory, or city-level governance.
 
+## Promotion gate
+
+Morph can be promoted from lane to standalone repo only after it has all of the following:
+
+- a clear owner and package boundary
+- repeatable adapter contracts
+- test fixtures proving provider swap behavior
+- documented queue or execution service
+- usage telemetry or analytics plan
+- security review for secrets and tool authority
+- rollback path
+- public docs that do not leak private Agentropolis runtime details
+
+Until that gate is met, new Morph work should land inside the relevant existing repo.
+
 ## Local configuration
 
 Use local environment variables only.

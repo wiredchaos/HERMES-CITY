@@ -2,6 +2,14 @@
 
 Source: https://www.morphllm.com/blog
 
+## Applicability decision
+
+Yes. Morph applies to HERMES-CITY as a coding-agent infrastructure lane.
+
+Use Morph to accelerate Hermes build work, especially long-running agent sessions, delegated coding tasks, repo exploration, fast patches, context compaction, routing, and trace-level failure detection.
+
+Do not make Morph a standalone repo yet. Keep it as an optional provider lane behind Hermes and MCP boundaries.
+
 ## Hermes relevance
 
 Morph's blog points toward long-running coding agents, context control, cost control, and MCP-based workflows. This maps directly to Hermes profiles, agent sessions, and delegated coding tasks.
@@ -31,12 +39,16 @@ Morph is an optional execution lane.
 
 Hermes should use Morph for coding-agent acceleration while preserving fallback across other providers and local models.
 
-## Secret handling
+## HERMES-CITY placement
 
-Never commit real Morph API keys.
-
-Use local environment variables only:
-
-```bash
-export MORPH_API_KEY=replace_with_local_secret
+```txt
+HERMES-CITY
+└─ agent session and city UI layer
+   └─ Morph = optional coding acceleration lane
 ```
+
+Morph should support the build system, not replace Hermes identity, profiles, memory, or city-level governance.
+
+## Local configuration
+
+Use local environment variables only.

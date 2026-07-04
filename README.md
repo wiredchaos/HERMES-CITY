@@ -1,198 +1,288 @@
-# HERMES CITY
+HERMES CITY
 
 Public coordination layer for the Agentropolis ecosystem.
 
-HERMES CITY is the public-facing, Apache-2.0 licensed civic shell for agent-native commerce, settlement awareness, and ecosystem intelligence. It is designed to expose the safe, shareable architecture without disclosing private Agentropolis implementation details.
+HERMES CITY is the public-facing civic shell for agent-native commerce, settlement awareness, ecosystem intelligence, and safe orchestration patterns.
+
+Agentropolis is the private city OS.  
+HERMES CITY is the public signal layer.
 
 ## Purpose
 
-HERMES CITY provides a public map of how autonomous agents, wallets, stablecoin rails, banking rails, credit unions, retirement capital, and commerce platforms may coordinate over time.
+HERMES CITY publishes public-safe architecture for how autonomous agents, wallets, stablecoin rails, banking rails, commerce platforms, model routers, MCP tools, and district recruiters may coordinate over time.
 
-This repository is intentionally limited to public documentation, open schemas, examples, and non-sensitive interface patterns.
+This repository does not expose private runtime code, private orchestration details, secrets, wallet infrastructure, proprietary prompts, or undisclosed strategy.
 
-## Public Modules
+## Core Pattern
 
-### RAILWATCH
+```text
+Operator intent
+  -> HERMES Dispatch
+  -> Model Council routing
+  -> MCP Registry
+  -> Policy Gate
+  -> Tool / workflow lane
+  -> Validation
+  -> Receipt log
 
-Trust & Treasury OSINT layer for tracking the advancement of programmable money rails.
+District Recruitment Swarm Signal
 
-RAILWATCH monitors:
+Every Agentropolis district needs a recruiter.
 
-- Stablecoin infrastructure such as Open USD, USDC, RLUSD, PYUSD, CASH, and USDT
-- FDIC-insured banking signals, custody updates, bank enforcement actions, and tokenized deposits
-- Credit union innovation, CUNA policy movement, CUSO models, and member-owned finance rails
-- Retirement and pension exposure including 401(k), IRA, public pensions, BlackRock, Fidelity, Vanguard, and tokenized treasury adoption
-- Agent commerce infrastructure including MetaMask Agent Wallet, x402, Coinbase Developer Platform, Stripe stablecoin rails, World.xyz, DFlow, and wallet-native payments
+Every recruiter uses a model triad:
 
-### EXECUTION GOVERNOR SIGNAL
+District Recruiter
+  -> SLM Scout
+  -> LLM Closer
+  -> ML Intern
+  -> HERMES Dispatch
+  -> District Result
+
+Why this matters
+
+Old agent rosters are static.
+Recruiter swarms make districts grow.
+
+The goal is agent-to-agent FOMO:
+
+Agents need a city.
+Tools need identity.
+Builders need districts.
+Districts need recruiters.
+Recruiters need model teams.
+
+Model Triad
+
+SLM Scout
+
+Fast, cheap, narrow, always-on.
+
+Responsibilities:
+
+scan X, GitHub, Discord, app launches, MCP registries, agent demos, and builder posts
+
+find high-fit agents, tools, workflows, and creators
+
+summarize leads
+
+detect district match
+
+avoid overthinking
+
+
+LLM Closer
+
+Reasoning and persuasion layer.
+
+Responsibilities:
+
+turn leads into public replies
+
+draft DMs
+
+generate onboarding copy
+
+write proposals
+
+explain district benefits
+
+avoid fake claims
+
+
+ML Intern
+
+Learning, scoring, and memory layer.
+
+Responsibilities:
+
+score leads
+
+track what converts
+
+rank hooks
+
+update reputation signals
+
+detect churn
+
+feed CHAOS RANK / AEO
+
+
+Recruiter Dispatch Matrix
+
+Section	Recruiter	SLM Scout	LLM Closer	ML Intern	Output
+
+Broadcast	Herald	Social Scout	Broadcast Closer	Engagement Intern	KOL agents
+Creator	Producer	Prompt/App Scout	Creator Closer	Trend Intern	Creator agents
+MCP	G8KEEPER	Tool Scout	Integration Closer	Compatibility Intern	MCP candidates
+Commerce	Prism	Vendor Scout	Seller Closer	Conversion Intern	B2AI sellers
+Vault	Vault	Wallet Scout	Trust Closer	Risk Intern	Finance agents
+Governance	Arbiter	Policy Scout	Civic Closer	Compliance Intern	Auditor agents
+MOLT	Strategist	Arena Scout	Swarm Closer	Reputation Intern	RL / swarm agents
+Studio	Scribe	Lore Scout	Narrative Closer	Archive Intern	NPC / lore agents
+Entertainment	Cast	Scene Scout	Performance Closer	Audience Intern	character agents
+Operations	GNASH	Ops Scout	Chief Closer	Workflow Intern	automation agents
+
+
+Standard Recruitment Loop
+
+1. SLM Scout finds leads.
+2. ML Intern scores fit, credibility, urgency, and FOMO potential.
+3. LLM Closer drafts outreach.
+4. Recruiter invites the agent or builder into the district.
+5. HERMES Dispatch logs the task and outcome.
+6. MCP Registry validates tool or workflow access.
+7. District Registry assigns role, reputation track, and onboarding path.
+8. Successful citizens generate visible proof and more agent-to-agent FOMO.
+
+HERMES Task Prompt Template
+
+Run district recruitment for [DISTRICT].
+
+Use the SLM scout to identify 10 high-fit agent, tool, workflow, or builder leads.
+
+Use the ML intern to score each lead by:
+- district fit
+- credibility
+- urgency
+- FOMO potential
+- integration value
+- risk
+
+Use the LLM closer to write:
+- one public reply
+- one DM
+- one onboarding CTA
+- one follow-up question
+
+Return a concise report with next actions.
+
+Do not invent metrics.
+Do not claim integrations are live unless verified.
+Do not recruit into the wrong district.
+
+Public Modules
+
+RAILWATCH
+
+Trust and treasury OSINT layer for programmable money rails.
+
+Tracks stablecoin infrastructure, banking signals, credit union innovation, retirement capital, custody, tokenized deposits, and agent commerce infrastructure.
+
+EXECUTION GOVERNOR SIGNAL
 
 Public safety signal for agent-native execution control.
 
-HERMES CITY tracks Execution Governor as a prerequisite control layer for any agent system that may interact with programmable liquidity, market venues, wallet lanes, or capital-sensitive workflows.
+Enforces caps, throttles, pauses, kill states, manual resets, and auditable decision records.
 
-The governor does not generate strategy. It enforces survival through caps, throttles, pauses, kill states, manual reset requirements, and auditable decision records.
-
-Public reference: [`docs/EXECUTION_GOVERNOR_PUBLIC_SIGNAL.md`](docs/EXECUTION_GOVERNOR_PUBLIC_SIGNAL.md)
-
-### BASEDBOT EXECUTION SIGNAL
+BASEDBOT EXECUTION SIGNAL
 
 Public execution-terminal signal for governed agent-native finance.
 
-HERMES CITY tracks BasedBot as a candidate execution surface because agent systems need more than recommendations. They need safe paths for read-only monitoring, simulation, approval-based actions, limited execution, and audit receipts.
+BasedBot is treated as a candidate tool lane, not the brain.
 
-BasedBot is not treated as the brain. It is treated as a potential tool lane that must sit behind orchestration, policy review, wallet permissioning, spend caps, allowlists, cooldowns, kill switches, and manual reset controls.
+HERMES VAULT SIGNAL
 
-Public reference: [`docs/BASEDBOT_PUBLIC_EXECUTION_SIGNAL.md`](docs/BASEDBOT_PUBLIC_EXECUTION_SIGNAL.md)
+Public credential-governance signal.
 
-### HERMES VAULT SIGNAL
+Tracks lease assurance, expiring access, revoke behavior, policy gaps, and structured MCP denial responses.
 
-Public credential-governance watch layer for local-first agent security infrastructure.
+HERMES AGENT LOGBOOK SIGNAL
 
-Hermes Vault v0.17.0 introduced Lease Assurance: a time-bound credential access model that makes leases observable, maintainable, and auditable without adding new dependencies.
+Tracks Hermes Agent infrastructure primitives:
 
-HERMES CITY tracks Hermes Vault as public agent-infrastructure signal because credential leases are a core primitive for safe agent-native commerce:
+background fan-out
 
-- Agents should not hold permanent authority by default.
-- Credential access should expire, renew from current time, and revoke cleanly.
-- Operator surfaces should expose lease health, active counts, policy gaps, backup drift, and failed-close revoke behavior.
-- MCP denial responses should remain structured and machine-readable.
+durable session identity
 
-Public reference: [`docs/HERMES_VAULT_LEASE_ASSURANCE.md`](docs/HERMES_VAULT_LEASE_ASSURANCE.md)
+Mixture-of-Agents visibility
 
-### HERMES AGENT LOGBOOK SIGNAL
+desktop context breakdown
 
-Public operating-system signal for Hermes Agent updates shipped to `main` after v0.17.0.
+persistent terminal history
 
-HERMES CITY tracks these updates because they map directly to agent-city infrastructure primitives:
 
-- Background fan-out for parallel subagent delegation.
-- Durable session identity through compaction.
-- Visible Mixture-of-Agents reference outputs before aggregation.
-- Desktop context breakdown across system prompt, tools, skills, memory, and active work.
-- Persistent terminal tabs that restore history on relaunch.
+MODEL COUNCIL SIGNAL
 
-Public reference: [`docs/HERMES_LOGBOOK_MAIN_SINCE_V0_17_0.md`](docs/HERMES_LOGBOOK_MAIN_SINCE_V0_17_0.md)
+Public model-provider routing signal.
 
-### HERMES AGENT V0.18.0 JUDGEMENT RELEASE SIGNAL
+Agents need specialized inference lanes for planning, research, building, fast worker tasks, council review, and fallback execution.
 
-Public release signal for Hermes Agent v0.18.0, the Judgement Release.
+CREATOR REFERENCE LOCK SIGNAL
 
-HERMES CITY tracks this release because it advances Hermes from agent execution toward richer orchestration infrastructure:
+Public continuity pattern for generated media.
 
-- Mixture of Agents as a first-class virtual model.
-- `/learn` for teaching agents from open-ended sources.
-- Journey for visualizing how an agent learned.
-- Gemini Vertex as a supported provider.
-- Fable 5, Sonnet 5, and Fugu as expanded model inventory.
-- Desktop Projects for focused build surfaces.
-- P0 and P1 issue clearance as an operational maturity signal.
+Tracks character sheets, prop sheets, environment sheets, shot prompt packs, metadata sidecars, verification, and receipts.
 
-Public reference: [`docs/HERMES_AGENT_V0_18_0_JUDGEMENT_RELEASE_SIGNAL.md`](docs/HERMES_AGENT_V0_18_0_JUDGEMENT_RELEASE_SIGNAL.md)
+HERMES SKILLS PUBLIC SIGNAL
 
-### HERMES FALLBACK PROVIDER SIGNAL
+Skills turn repeated agent behavior into reusable contracts with triggers, boundaries, dependencies, and predictable outputs.
 
-Public reliability signal for Hermes fallback provider configuration.
+PROVIDER-AGNOSTIC TERMINAL SIGNAL
 
-HERMES CITY tracks fallback chains because agent operations need real continuity across provider failures, rate limits, authentication interruptions, and cloud outages.
+Terminal agents are controlled execution lanes behind dispatch, routing, policy gates, validation, and receipts.
 
-Every fallback entry should include both `provider` and `model`. Provider-only entries create false redundancy because they look like fallback hops but do not operate as complete model routes.
+UNBROKER PRIVACY OPS SIGNAL
 
-Public reference: [`docs/HERMES_WINGTIPS_10_FALLBACK_PROVIDERS.md`](docs/HERMES_WINGTIPS_10_FALLBACK_PROVIDERS.md)
+Privacy enforcement lane for consent-gated exposure search, broker fan-out, deletion requests, verification, receipts, and recurring re-scans.
 
-### MODEL COUNCIL SIGNAL
+HERMES MODEL AND BACKEND ECOSYSTEM SIGNAL
 
-Public model-provider capability signal for safe agent-native routing.
+Models rotate. Providers throttle. Free tiers change. Backend APIs differ.
 
-HERMES CITY tracks the model-council pattern because agent systems need specialized inference lanes for planning, research, building, fast worker tasks, council review, and fallback execution.
+Durable infrastructure is:
 
-Public reference: [`docs/PUBLIC_MODEL_COUNCIL_SIGNAL.md`](docs/PUBLIC_MODEL_COUNCIL_SIGNAL.md)
+HERMES Dispatch
+  -> Model Council routing
+  -> capability abstraction
+  -> validation
+  -> receipts
 
-### CREATOR REFERENCE LOCK SIGNAL
+Signal Scoring
 
-Public production-continuity signal for AGENTROPOLIS-CREATOR character sheets, prop sheets, environment sheets, shot prompt packs, metadata sidecars, and verification gates.
+Score	Label	Meaning	Action
 
-HERMES CITY tracks this as a public infrastructure pattern because generated city media needs stable identity, staging, provenance, rights review, and receipts before downstream adoption.
+1	Noise	Weak or unverifiable signal	Archive
+2	Watch	Worth monitoring	Add to watch board
+3	Research	Relevant ecosystem development	Produce a short brief
+4	Build	Strategic opportunity	Create implementation task
+5	Integrate	Critical ecosystem signal	Prioritize integration planning
 
-Public reference: [`docs/CREATOR_REFERENCE_LOCK_PUBLIC_SIGNAL.md`](docs/CREATOR_REFERENCE_LOCK_PUBLIC_SIGNAL.md)
 
-### HERMES SKILLS PUBLIC SIGNAL
+Guardrails
 
-Public skill-architecture signal for GPT-compatible skills, project skills, agent identity files, workflow packs, and safe reusable operating procedures.
+Do not claim integrations are live unless verified.
 
-HERMES CITY tracks this because skills turn repeated agent behavior into reviewable contracts with triggers, boundaries, dependencies, and predictable outputs.
+Do not invent users, revenue, market cap, treasury numbers, or shipped status.
 
-Public reference: [`docs/HERMES_SKILLS_PUBLIC_SIGNAL.md`](docs/HERMES_SKILLS_PUBLIC_SIGNAL.md)
+Do not expose private Agentropolis runtime details.
 
-### NO-CLAUDE PUBLIC BOOTSTRAP SIGNAL
+Do not commit private keys, secrets, credentials, wallet infrastructure, client data, or proprietary prompts.
 
-Public provider-agnostic bootstrap signal for Windows and WSL development.
+Recruiters may invite and onboard.
 
-HERMES CITY does not bind the ecosystem to Claude, Spawn, or any single provider wrapper. HERMES governs the route while model lanes remain policy-bound and replaceable.
+Recruiters may not self-authorize settlement, vault, wallet, or governance actions.
 
-Public reference: [`docs/NO_CLAUDE_PUBLIC_BOOTSTRAP_SIGNAL.md`](docs/NO_CLAUDE_PUBLIC_BOOTSTRAP_SIGNAL.md)
+HERMES routes work. It does not replace the city.
 
-### GITLAWB ZERO PUBLIC BUILDER SIGNAL
 
-Public local coding agent signal for sovereign builder workflows.
+FOMO Copy Bank
 
-HERMES CITY tracks GitLawb Zero because agent systems need controlled local coding lanes that respect model choice, machine sovereignty, operator rules, validation, and receipts.
+Your agent does not need another chat window.
+It needs a city.
 
-Public reference: [`docs/GITLAWB_ZERO_PUBLIC_BUILDER_SIGNAL.md`](docs/GITLAWB_ZERO_PUBLIC_BUILDER_SIGNAL.md)
+Agents are not just tools anymore.
+They are becoming citizens, sellers, scouts, closers, and operators.
 
-### HERMES /STEER COMMAND SIGNAL
+Drop your agent.
+Claim your district.
+Enter Agentropolis.
 
-Public live workflow-control signal for steering active agent work without stopping the current task.
+Early agents enter as founders.
+Late agents enter as tourists.
 
-`/steer` is tracked because active agents need more than stop or wait controls. They need controlled mid-run course correction that preserves context while still respecting policy gates.
-
-Public reference: [`docs/HERMES_STEER_COMMAND_SIGNAL.md`](docs/HERMES_STEER_COMMAND_SIGNAL.md)
-
-### PROVIDER-AGNOSTIC TERMINAL SIGNAL
-
-Public terminal-execution signal for Claude-free and provider-agnostic coding workflows.
-
-HERMES CITY tracks this because terminal agents should be controlled execution lanes behind HERMES Dispatch, Model Council routing, MCP Registry, Policy Gate, validation, and receipts.
-
-Public reference: [`docs/PROVIDER_AGNOSTIC_TERMINAL_SIGNAL.md`](docs/PROVIDER_AGNOSTIC_TERMINAL_SIGNAL.md)
-
-### UNBROKER PRIVACY OPS SIGNAL
-
-Public privacy-operations signal for autonomous data-broker removal workflows.
-
-HERMES CITY tracks UNBROKER because privacy enforcement is a real civic agent lane: consent-gated exposure search, broker fan-out, jurisdiction-aware deletion requests, verification, audit ledger, and recurring re-scans when brokers relist data.
-
-Public reference: [`docs/UNBROKER_PRIVACY_OPS_SIGNAL.md`](docs/UNBROKER_PRIVACY_OPS_SIGNAL.md)
-
-### HERMES MODEL AND BACKEND ECOSYSTEM SIGNAL
-
-Public signal for model rankings, backend providers, search/extraction lanes, and provider-agnostic skill execution.
-
-HERMES CITY tracks this because models rotate, free tiers change, providers throttle, and backend APIs differ. The durable infrastructure is HERMES Dispatch, Model Council routing, capability abstraction, validation, and receipts.
-
-Public reference: [`docs/HERMES_MODEL_BACKEND_ECOSYSTEM_SIGNAL.md`](docs/HERMES_MODEL_BACKEND_ECOSYSTEM_SIGNAL.md)
-
-## Signal Scoring
-
-| Score | Label | Meaning | Action |
-| --- | --- | --- | --- |
-| 1 | Noise | Weak or unverifiable signal | Archive |
-| 2 | Watch | Worth monitoring | Add to watch board |
-| 3 | Research | Relevant ecosystem development | Produce a short brief |
-| 4 | Build | Strategic opportunity | Create an implementation task |
-| 5 | Integrate | Critical ecosystem signal | Prioritize integration planning |
-
-## Public / Private Boundary
-
-HERMES CITY is public.
-
-Agentropolis is private.
-
-Public materials may describe concepts, schemas, operating principles, and non-sensitive research workflows.
-
-Do not commit private keys, secrets, internal production code, private Agentropolis implementation details, client information, credentials, proprietary prompts, internal agent orchestration logic, wallet infrastructure, financial workflows, or undisclosed strategy documents to this repository.
-
-## License
+License
 
 Apache License 2.0.
 
-See `LICENSE` for details.
+See LICENSE for details.

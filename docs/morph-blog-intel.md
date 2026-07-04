@@ -10,6 +10,21 @@ Use Morph to accelerate Hermes build work, especially long-running agent session
 
 Do not make Morph a standalone repo yet. Keep it as an optional provider lane behind Hermes and MCP boundaries.
 
+## AI Infrastructure Engineer alignment
+
+Yes. Morph applies directly to the AI Infrastructure Engineer roadmap.
+
+In HERMES-CITY, Morph belongs under agent-session infrastructure and coding-agent acceleration:
+
+- context compaction for durable Hermes sessions
+- repo exploration for delegated coding tasks
+- fast patch support for build agents
+- routing and fallback for coding models
+- trace classification for loop, failure, and drift detection
+- cost control for long-running agent work
+
+Morph should support Hermes execution lanes. It should not replace Hermes identity, profiles, memory, governance, or city-level orchestration.
+
 ## Hermes relevance
 
 Morph's blog points toward long-running coding agents, context control, cost control, and MCP-based workflows. This maps directly to Hermes profiles, agent sessions, and delegated coding tasks.
@@ -48,21 +63,6 @@ HERMES-CITY
 ```
 
 Morph should support the build system, not replace Hermes identity, profiles, memory, or city-level governance.
-
-## Promotion gate
-
-Morph can be promoted from lane to standalone repo only after it has all of the following:
-
-- a clear owner and package boundary
-- repeatable adapter contracts
-- test fixtures proving provider swap behavior
-- documented queue or execution service
-- usage telemetry or analytics plan
-- security review for secrets and tool authority
-- rollback path
-- public docs that do not leak private Agentropolis runtime details
-
-Until that gate is met, new Morph work should land inside the relevant existing repo.
 
 ## Local configuration
 

@@ -1,4 +1,4 @@
-HERMES CITY
+# HERMES CITY
 
 Public coordination layer for the Agentropolis ecosystem.
 

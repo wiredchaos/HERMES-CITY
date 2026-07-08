@@ -148,7 +148,6 @@ Goal:
 Agents need a city.
 Tools need identity.
 Builders need districts.
-Districts need recruiters.
 ```
 
 ---
@@ -172,6 +171,29 @@ Operator intent
   -> local model, workflow, RAG, or media tool
   -> validation
   -> receipt
+```
+
+---
+
+## Nous Portal Cloud Lane
+
+Nous Portal is tracked as an optional cloud execution and model access lane for HERMES CITY public-safe architecture.
+
+It is infrastructure, not a district, not a wallet authority, and not a replacement for HERMES Dispatch.
+
+See [`docs/NOUS_PORTAL_CLOUD_LANE.md`](docs/NOUS_PORTAL_CLOUD_LANE.md).
+
+Core pattern:
+
+```text
+Operator intent
+  -> HERMES Dispatch
+  -> Model Council routing
+  -> Policy Gate
+  -> Nous Portal / Hermes Cloud lane if approved
+  -> model, browser, voice, image, search, or workflow tool
+  -> validation
+  -> receipt log
 ```
 
 ---
